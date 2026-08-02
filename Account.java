@@ -20,7 +20,7 @@ public class Account {
     public double getBalance() {
         return balance;
     }
-     public void setBalance(double balance) {
+     public void setBalances(double balance) {
         this.balance = balance;
     }
 }

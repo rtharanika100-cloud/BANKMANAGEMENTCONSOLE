@@ -10,7 +10,7 @@ public class Main {
             System.out.println("3. Withdraw");
             System.out.println("4. Check Balance");
             System.out.println("5. Exit");
-            System.out.print("Enter choice: ");
+            System.out.print("Enter choices: ");
             int choice = sc.nextInt();
             switch (choice) {
                 case 1:

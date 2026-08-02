@@ -18,7 +18,7 @@ public void deposit(int id, double amount) {
         if (acc.getAccountId() == id) {
 
             double newBalance = acc.getBalance() + amount;
-            acc.setBalance(newBalance);   
+            acc.setBalances(newBalance);   
 
             System.out.println("Amount deposited successfully");
             System.out.println("New Balance: " + newBalance);
@@ -39,7 +39,7 @@ public void withdraw(int id, double amount) {
             }
 
             double newBalance = acc.getBalance() - amount;
-            acc.setBalance(newBalance);   
+            acc.setBalances(newBalance);   
 
             System.out.println("Withdrawal successful");
             System.out.println("Remaining Balance: " + newBalance);
